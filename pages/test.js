@@ -10,7 +10,9 @@ export default function BasicAlerts() {
       <Alert severity="warning">This is a warning alert — check it out!</Alert>
       <Alert severity="info">This is an info alert — check it out!</Alert>
       <Alert severity="success">This is a success alert — check it out!</Alert>
-      <Button variant="contained">سلام</Button>
+      <Button color="error" variant="contained">
+        سلام
+      </Button>
     </Stack>
   );
 }
